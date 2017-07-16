@@ -15,3 +15,11 @@
     background-color: #212121;
     color: white;
 }
+
+.t-about a{
+    color: #607D8B;
+}
+
+.t-about a:hover{
+    color: #009688;
+}
