@@ -11,9 +11,11 @@
     margin-bottom: 0;
 }
 
+/*about us - home page custom*/
 .t-about{
     background-color: #212121;
     color: white;
+    padding-bottom: 30px;
 }
 
 .t-about a{
@@ -23,3 +25,20 @@
 .t-about a:hover{
     color: #009688;
 }
+
+/*messages*/
+.t-msg{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: #e74c3c;
+    color: white;
+}
+
+.t-msg a{
+    color: #607D8B;
+}
+
+.t-msg a:hover{
+    color: #009688;
+}
+

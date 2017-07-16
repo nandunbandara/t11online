@@ -1,7 +1,7 @@
 (function($){
 
   $.fn.twentytwenty = function(options) {
-    var options = $.extend({default_offset_pct: 0.5, orientation: 'horizontal', before_label: 'Before', after_label: 'After', no_overlay: false}, options);
+    var options = $.extend({default_offset_pct: 0.5, orientation: 'horizontal', before_label: '1983', after_label: '2015', no_overlay: false}, options);
     return this.each(function() {
 
       var sliderPct = options.default_offset_pct;
