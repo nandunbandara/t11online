@@ -6,3 +6,12 @@
 .t-header .nav-bar-default{
     background-color: #3e3d3d;
 }
+
+.t-header .navbar{
+    margin-bottom: 0;
+}
+
+.t-about{
+    background-color: #212121;
+    color: white;
+}
