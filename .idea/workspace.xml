@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="087ce232-455b-438a-b537-1aa85a0f0cb5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v2.0/assets/css/style.css" afterPath="$PROJECT_DIR$/v2.0/assets/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v2.0/index.html" afterPath="$PROJECT_DIR$/v2.0/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,12 +23,14 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/v2.0/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="104" column="77" lean-forward="true" selection-start-line="104" selection-start-column="77" selection-end-line="104" selection-end-column="77" />
+            <state relative-caret-position="120">
+              <caret line="217" column="62" lean-forward="false" selection-start-line="217" selection-start-column="62" selection-end-line="217" selection-end-column="62" />
               <folding>
                 <element signature="e#1504#1510#0" expanded="true" />
                 <element signature="e#1510#1516#0" expanded="true" />
                 <element signature="e#5179#5186#0" expanded="true" />
+                <element signature="e#9759#9766#0" expanded="true" />
+                <element signature="e#13263#13270#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,8 +91,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/v2.0/assets/js/jquery.twentytwenty.js" />
         <option value="$PROJECT_DIR$/v2.0/assets/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/v2.0/index.html" />
         <option value="$PROJECT_DIR$/v2.0/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/v2.0/index.html" />
       </list>
     </option>
   </component>
@@ -241,12 +241,12 @@
       <workItem from="1500066825584" duration="666000" />
       <workItem from="1500108400936" duration="21710000" />
       <workItem from="1500313071877" duration="3246000" />
-      <workItem from="1500644147208" duration="2213000" />
+      <workItem from="1500644147208" duration="2636000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28999000" />
+    <option name="totallyTimeSpent" value="29422000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="24" width="1309" height="744" extended-state="6" />
@@ -289,6 +289,8 @@
             <element signature="e#1504#1510#0" expanded="true" />
             <element signature="e#1510#1516#0" expanded="true" />
             <element signature="e#5179#5186#0" expanded="true" />
+            <element signature="e#9759#9766#0" expanded="true" />
+            <element signature="e#13263#13270#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -317,6 +319,8 @@
             <element signature="e#1504#1510#0" expanded="true" />
             <element signature="e#1510#1516#0" expanded="true" />
             <element signature="e#5179#5186#0" expanded="true" />
+            <element signature="e#9759#9766#0" expanded="true" />
+            <element signature="e#13263#13270#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -385,12 +389,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/v2.0/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="104" column="77" lean-forward="true" selection-start-line="104" selection-start-column="77" selection-end-line="104" selection-end-column="77" />
+        <state relative-caret-position="120">
+          <caret line="217" column="62" lean-forward="false" selection-start-line="217" selection-start-column="62" selection-end-line="217" selection-end-column="62" />
           <folding>
             <element signature="e#1504#1510#0" expanded="true" />
             <element signature="e#1510#1516#0" expanded="true" />
             <element signature="e#5179#5186#0" expanded="true" />
+            <element signature="e#9759#9766#0" expanded="true" />
+            <element signature="e#13263#13270#0" expanded="true" />
           </folding>
         </state>
       </provider>
