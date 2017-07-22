@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="087ce232-455b-438a-b537-1aa85a0f0cb5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v2.0/members/app.js" afterPath="$PROJECT_DIR$/v2.0/members/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v2.0/members/app/login/loginController.js" afterPath="$PROJECT_DIR$/v2.0/members/app/login/loginController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/v2.0/members/index.html" afterPath="$PROJECT_DIR$/v2.0/members/index.html" />
-    </list>
+    <list default="true" id="087ce232-455b-438a-b537-1aa85a0f0cb5" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -226,6 +221,10 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -343,12 +342,12 @@
       <workItem from="1500108400936" duration="21710000" />
       <workItem from="1500313071877" duration="3246000" />
       <workItem from="1500644147208" duration="7241000" />
-      <workItem from="1500671081203" duration="1995000" />
+      <workItem from="1500671081203" duration="2357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36022000" />
+    <option name="totallyTimeSpent" value="36384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="24" width="1366" height="744" extended-state="6" />
