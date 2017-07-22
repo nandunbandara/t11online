@@ -1,0 +1,15 @@
+{
+  "name": "t11online",
+  "version": "2.0.0",
+  "description": "The Official Website of the Association of T-11 Surveyors Sri Lanka",
+  "main": "app.js",
+  "dependencies": {
+    "angular-ui-router": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
