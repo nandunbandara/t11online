@@ -15,7 +15,7 @@ angular.module('t.app.routes',['ui.router'])
     $urlRouterProvider.otherwise('/error');
     $stateProvider
         .state('login',{
-            url: '/',
+            url: '/login',
             templateUrl: 'app/login/login.html',
             controller: 'loginCtrl as login',
             authenticated: false
