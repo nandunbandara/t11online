@@ -24,7 +24,9 @@
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <!--fonts-->
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
+
 </head>
 <body>
 <!--Header-->
@@ -61,7 +63,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <img src="assets/images/logo.png">
+                    <img id="t-land-img" src="assets/images/logo.png">
                     <h1 id="t-land-welcome">WELCOME</h1>
                     <h2 id="t-land-content-1">The Association of T-11 Surveyors Sri Lanka</h2>
                 </div>
@@ -69,16 +71,16 @@
         </div>
     </div>
 <!--THEN AND NOW Photo sider-->
-    <div id="slider">
-        <img src="assets/images/slider/bg2.jpg">
-        <img src="assets/images/slider/now2.jpg" width="1500">
-    </div>
+    <!--<div id="slider">-->
+        <!--<img src="assets/images/slider/bg2.jpg">-->
+        <!--<img src="assets/images/slider/now2.jpg" width="1500">-->
+    <!--</div>-->
 
-    <script>
-        $(window).load(function(){
-          $("#slider").twentytwenty();
-        })
-    </script>
+    <!--<script>-->
+        <!--$(window).load(function(){-->
+          <!--$("#slider").twentytwenty();-->
+        <!--})-->
+    <!--</script>-->
 <!--About Us-->
     <div class="t-about">
         <div class="container">
@@ -277,9 +279,6 @@
 <!--scripts-->
 <!--scroll animations-->
 <script>
-    var svg = $("#t-land-img").drawsvg();
-    svg.drawsvg('animate')
-
     window.sr = ScrollReveal({ duration: 1000 });
     window.sr_land = ScrollReveal({ duration: 1500 });
 
@@ -303,7 +302,7 @@
 
 //    typed
     $("#t-land-content-1").typed({
-        strings: ["The Association of T-11 Surveyors Sri Lanka"]
+        strings: ["The Association of T-11 Surveyors Sri Lanka","13 Long Years of Success","The Association of T-11 Surveyors Sri Lanka"]
     })
 </script>
 </body>

@@ -19,15 +19,23 @@
 
 /*t-land*/
 .t-land{
-    height: 100vh;
-    background: #ffffff;
+    height: 120vh;
+    background: url("../images/back.jpg");
+    background-repeat: round;
+    background-size: 1000px;
     padding-top: 100px;
-    font-family: 'Righteous', cursive;
+    border-bottom: 5px solid #2c3e50;
 }
 
 .t-land h1{
     font-size: 72px;
-    color: #1B242F;
+    color: #e74c3c;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.t-land h2{
+    font-family: 'Raleway', sans-serif;
 }
 
 /*about us - home page custom*/
