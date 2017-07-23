@@ -10,8 +10,15 @@ var pwd = process.env.FTP_PWD;
 var host  = 'www.t11online.org';
 var port = 21;
 
-var localFiles = ['./**/*'];
-var remoteLocation = 'public_http/v2/';
+var localFiles = [
+    './assets/**/*',
+    './gallery/**/*',
+    './members/**/*',
+    './*.ico',
+    './*.js',
+    './*.html'
+];
+var remoteLocation = 'public_html/v2/';
 
 function getFtpConnection(){
     return ftp.create({
@@ -29,10 +36,12 @@ gulp.task('remote-deploy',function(){
     var conn = getFtpConnection();
     return gulp.src(localFiles, {base: '.', buffer: false})
         .pipe(conn.newer(remoteLocation))
+        .pipe(conn.dest(remoteLocation))
 })
 
-gulp.task('remote-deploy-changes', function(){
-    var conn = getFtpConnection();
-    return gulp.src(localFiles, {base: '.', buffer: false})
-        .pipe(conn.newer(remoteLocation))
-})
+// gulp.task('remote-deploy-changes', function(){
+//     var conn = getFtpConnection();
+//     return gulp.src(localFiles, {base: '.', buffer: false})
+//         .pipe(conn.newer(remoteLocation))
+//         .pipe(conn.dest(remoteLocation))
+// })
