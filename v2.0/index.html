@@ -13,6 +13,10 @@
     <script src="assets/js/jquery.event.move.js"></script>
     <!--scroll reveal-->
     <script src="assets/js/scrollreveal.min.js "></script>
+    <!--typed-->
+    <script src="assets/js/typed.min.js"></script>
+    <!--draw svg-->
+    <script src="assets/js/jquery.drawsvg.js"></script>
     <!--CSS-->
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -20,6 +24,7 @@
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <!--fonts-->
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
 </head>
 <body>
 <!--Header-->
@@ -50,6 +55,18 @@
                 </div>
             </div>
         </nav>
+    </div>
+<!--landing main-->
+    <div class="t-land">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <img src="assets/images/logo.png">
+                    <h1 id="t-land-welcome">WELCOME</h1>
+                    <h2 id="t-land-content-1">The Association of T-11 Surveyors Sri Lanka</h2>
+                </div>
+            </div>
+        </div>
     </div>
 <!--THEN AND NOW Photo sider-->
     <div id="slider">
@@ -260,13 +277,34 @@
 <!--scripts-->
 <!--scroll animations-->
 <script>
+    var svg = $("#t-land-img").drawsvg();
+    svg.drawsvg('animate')
+
     window.sr = ScrollReveal({ duration: 1000 });
+    window.sr_land = ScrollReveal({ duration: 1500 });
+
+    sr_land.reveal('#t-land-img');
+    sr_land.reveal('#t-land-welcome');
+
     sr.reveal('#t-about-title');
     sr.reveal('#t-about-content');
 //    messages
     sr.reveal('#t-msg-title');
     sr.reveal('.t-msg-img-title');
     sr.reveal('.t-msg-content');
+
+//    fixed header
+    $(window).scroll(function(){
+        var header = $('.t-header'),
+            scroll = $(window).scrollTop();
+        if (scroll) header.addClass('fixed');
+        else header.removeClass('fixed');
+    })
+
+//    typed
+    $("#t-land-content-1").typed({
+        strings: ["The Association of T-11 Surveyors Sri Lanka"]
+    })
 </script>
 </body>
 </html>
