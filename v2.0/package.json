@@ -4,7 +4,9 @@
   "description": "The Official Website of the Association of T-11 Surveyors Sri Lanka",
   "main": "app.js",
   "dependencies": {
-    "angular-ui-router": "^1.0.3"
+    "angular-ui-router": "^1.0.3",
+    "angularfire": "^2.3.0",
+    "firebase": "^4.1.3"
   },
   "devDependencies": {},
   "scripts": {
