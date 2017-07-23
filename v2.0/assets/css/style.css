@@ -84,3 +84,19 @@
     padding: 20px 0;
 }
 
+/*about page*/
+
+.t-about-container{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.t-about-container .t-about-header h1{
+    font-family: 'Raleway', sans-serif;
+}
+
+.t-about-container .t-about-content{
+    padding: 20px 10px;
+}
+
