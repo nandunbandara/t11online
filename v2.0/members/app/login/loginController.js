@@ -6,5 +6,7 @@
 angular.module('t.loginController', [])
 
 .controller('loginCtrl', [function(){
+    const app = this;
 
+    app.test ="login controller";
 }])
