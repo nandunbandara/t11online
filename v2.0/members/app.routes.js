@@ -20,4 +20,18 @@ angular.module('t.app.routes',['ui.router'])
             controller: 'loginCtrl as login',
             authenticated: false
         })
+
+        .state('outer-panel',{
+            url: '/op',
+            templateUrl: 'app/outer-panel/outer-panel.html',
+            controller: 'outer-panelCtrl as op',
+            authenticated: true
+        })
+
+        .state('outer-panel.feed',{
+            url: '/feed',
+            templateUrl: 'app/feed/feed.html',
+            controller: 'feedCtrl as feed',
+            authenticated: true
+        })
 }])
