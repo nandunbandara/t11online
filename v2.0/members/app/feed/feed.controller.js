@@ -1,3 +1,7 @@
-/**
- * Created by root on 7/23/17.
- */
+'use static'
+
+angular.module('t-app.feed.controller', [])
+
+.controller('feedCtrl',[function(){
+
+}])

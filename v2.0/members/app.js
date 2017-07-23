@@ -7,8 +7,9 @@ angular.module('t-app',[
 //    dependencies
     't.app.routes',
     'firebase',
-    't.loginController'
-
+    't.loginController',
+    't-app.outer-panel.controller',
+    't-app.feed.controller'
 ])
 
 .controller('appController',function($scope){
