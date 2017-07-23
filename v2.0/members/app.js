@@ -5,10 +5,11 @@
 
 angular.module('t-app',[
 //    dependencies
+    't.app.routes',
     't.loginController'
+
 ])
 
-.controller('appController',function(){
-    const app = this;
-    app.test = "hello";
+.controller('appController',function($scope){
+    $scope.test = "hello";
 })
