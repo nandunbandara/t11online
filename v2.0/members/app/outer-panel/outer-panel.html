@@ -16,6 +16,18 @@
             <!--collapsible section-->
             <div class="collapse navbar-collapse" id="t-menu">
                 <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden-lg hidden-md">
+                        <a href="">News Feed</a>
+                    </li>
+                    <li class="hidden-lg hidden-md">
+                        <a href="">Meeting Space</a>
+                    </li>
+                    <li class="hidden-lg hidden-md">
+                        <a href="">Users</a>
+                    </li>
+                    <li class="hidden-lg hidden-md">
+                        <a href="">Content</a>
+                    </li>
                     <li>
                         <a href="">
                             <i class="fa fa-power-off" aria-hidden="true"></i>
@@ -28,7 +40,7 @@
     </nav>
 </div>
 <!--side nav-->
-<div class="col-md-2">
+<div class="col-md-2 hidden-sm hidden-xs">
     <div class="t-side-nav">
         <div class="user-display">
             <img class="img-circle" src="../../../assets/images/man.png">
@@ -62,8 +74,49 @@
         </ul>
     </div>
 </div>
-<div class="col-md-10">
+<div class="col-md-8 col-sm-12 col-xs-12">
     <div class="t-member-content">
         <div ui-view></div>
     </div>
 </div>
+<div class="col-md-2 hidden-sm hidden-xs">
+    <div class="t-users-view">
+        <div class="t-users-search">
+            <form>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+            </form>
+        </div>
+        <div class="t-users">
+            <ul>
+                <li>
+                    <img class="img-circle" src="../../../assets/images/man.png">
+                    <small>user #1</small>
+                </li>
+                <li>
+                    <img class="img-circle" src="../../../assets/images/man.png">
+                    <small>user #2</small>
+                </li>
+                <li>
+                    <img class="img-circle" src="../../../assets/images/man.png">
+                    <small>user #3</small>
+                </li>
+                <li>
+                    <img class="img-circle" src="../../../assets/images/man.png">
+                    <small>user #4</small>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+    //    fixed header
+    $(window).scroll(function(){
+        var header = $('.t-header'),
+            scroll = $(window).scrollTop();
+        if (scroll) header.addClass('fixed');
+        else header.removeClass('fixed');
+    })
+</script>
