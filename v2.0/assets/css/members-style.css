@@ -1,3 +1,11 @@
+/*fixed header*/
+.fixed {
+    position: fixed;
+    top:0; left:0;
+    width: 100%;
+}
+
+
 /*login screen*/
 .login-container{
     position: relative;
@@ -80,12 +88,53 @@
     margin-right: 10px;
 }
 
+/*chat and users*/
+.t-users-view{
+    z-index: -1;
+    background-color: #ffffff;
+    position: fixed;
+    right: 0;
+    height: 100vh;
+    width: 200px;
+    border-left: 1px solid lightgray;
+    padding: 10px;
+}
+
+.t-users-search{
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+
+.t-users{
+    text-align: left;
+}
+
+.t-users ul{
+    list-style: none;
+    padding: 0;
+}
+
+.t-users ul li{
+    margin-bottom: 10px;
+}
+
+.t-users ul li img{
+    width: 30px;
+}
+
+.t-users ul li small{
+    margin-left: 20px;
+}
+
 /*member content*/
 .t-member-content{
     margin-top: 20px;
+    z-index: -1;
 }
 
 /*feed styles*/
 .t-feed-new{
-    
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    padding: 20px 20px 5px 20px;
 }
