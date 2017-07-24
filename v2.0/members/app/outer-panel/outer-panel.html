@@ -16,14 +16,54 @@
             <!--collapsible section-->
             <div class="collapse navbar-collapse" id="t-menu">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="/">Home</a></li>
-                    <li><a href="/about.html">About Us</a></li>
-                    <li><a href="#">Gallery</a></li>
                     <li>
-                        <a href="/members/#!/login">Member Login</a>
+                        <a href="">
+                            <i class="fa fa-power-off" aria-hidden="true"></i>
+                            &nbsp;Logout
+                        </a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+</div>
+<!--side nav-->
+<div class="col-md-2">
+    <div class="t-side-nav">
+        <div class="user-display">
+            <img class="img-circle" src="../../../assets/images/man.png">
+            Welcome
+        </div>
+        <ul>
+            <li>
+                <a href="">
+                    <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                    News Feed
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa fa-pencil" aria-hidden="true"></i>
+                    Meeting Space
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa fa-users" aria-hidden="true"></i>
+                    Users
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa fa-plus-square-o" aria-hidden="true"></i>
+                    Content
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="col-md-10">
+    <div class="t-member-content">
+        <div ui-view></div>
+    </div>
 </div>
